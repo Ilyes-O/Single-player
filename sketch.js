@@ -113,7 +113,7 @@ if(score === 54){
   textSize(26);
   fill("green")
   text("VICTORY",800,350);
-  victory.play();
+
 }
 
 if(score2 ===54){
@@ -121,7 +121,7 @@ if(score2 ===54){
   textSize(26);
   fill("red")
   text("DEFEAT",800,350);
-  defeat.play();
+
 }
   drawSprites();
   fill("black")
